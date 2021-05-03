@@ -45,4 +45,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Commands 
 to create the app:  npx create-react-app disney-plus-clone  --template redux
-
+to add npm react-helmet:  npm install react-helmet
+to add styled-components:  npm install styled-components
