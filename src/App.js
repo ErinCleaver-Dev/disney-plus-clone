@@ -3,7 +3,7 @@ import styles from 'styled-components'
 import Helmet from 'react-helmet';
 import './App.css';
 import Header from './components/Header'
-import Home from './components/Home'
+import Home from './components/HomePage/Home'
 
 function App() {
   return (
