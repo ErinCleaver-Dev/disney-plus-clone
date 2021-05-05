@@ -1,0 +1,20 @@
+{
+    "Slider_Images" : [
+        {
+            "id": 1,
+            "url": "/images/slider-badag.jpg"
+        },
+        {
+            "id": 2,
+            "url": "/images/slider-badging.jpg"
+        },
+        {
+            "id": 3,
+            "url": "/images/slider-scale.jpg"
+        },
+        {
+            "id": 4,
+            "url": "/images/slider-scakes.jpg"
+        }
+    ]
+}

@@ -7,28 +7,28 @@ const Header = () => {
         <Nav>
             <Logo src="/images/logo.svg" />
             <NavMenu>
-                <a>
-                    <img src="/images/home-icon.svg" />
+                <a href="#">
+                    <img src="/images/home-icon.svg" alt="Home Icon" />
                     <span>HOME</span>
                 </a>
-                <a>
-                    <img src="/images/search-icon.svg" />
+                <a href="#">
+                    <img src="/images/search-icon.svg" alt="Search Icon" />
                     <span>SEARCH</span>
                 </a>
-                <a>
-                    <img src="/images/watchlist-icon.svg" />
+                <a href="#">
+                    <img src="/images/watchlist-icon.svg" alt="Watchlist Icon" />
                     <span>WATCHLIST</span>
                 </a>
-                <a>
-                    <img src="/images/original-icon.svg" />
+                <a href="#">
+                    <img src="/images/original-icon.svg" alt="Original Icon" />
                     <span>ORIGINAL</span>
                 </a>
-                <a>
-                    <img src="/images/movie-icon.svg" />
+                <a href="#">
+                    <img src="/images/movie-icon.svg" alt="Movie Icon" />
                     <span>MOVIES</span>
                 </a>
-                <a>
-                    <img src="/images/series-icon.svg" />
+                <a href="#">
+                    <img src="/images/series-icon.svg" alt="Series Icon" />
                     <span>SERIES</span>
                 </a>
                 
@@ -63,6 +63,7 @@ const NavMenu = styles.div`
         align-items: center;
         padding: 0 12px;
         cursor: pointer;
+        text-decoration: none;
 
         img {
             height: 20px;

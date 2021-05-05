@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from 'styled-components'
-
+import ImgSlider from './ImgSlider'
 
 const Home = () => {
     return (
         //Created a container const variable in order to style the header 
         <Container>
-            Home
+            <ImgSlider />
         </Container>
     )
 }
