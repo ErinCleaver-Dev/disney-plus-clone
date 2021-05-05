@@ -14,7 +14,30 @@
         },
         {
             "id": 4,
-            "url": "/images/slider-scakes.jpg"
+            "url": "/images/slider-scales.jpg"
         }
+    ],
+    "Viewer_Images" : [
+        {
+            "id": 1,
+            "url": "/images/viewers-dinsey.png"
+        },
+        {
+            "id": 2,
+            "url": "/images/viewer-marvel.png"
+        },
+        {
+            "id": 3,
+            "url": "/images/viewer-national.pnp"
+        },
+        {
+            "id": 4,
+            "url": "/images/viewer-pixar.png"
+        },
+        {
+            "id": 5,
+            "url": "/images/viewer-starwars.png"
+        }
+      
     ]
 }
