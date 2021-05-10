@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from 'styled-components'
+import * as Links from '../Data/Links.json'
 
 const Header = () => {
     return (
@@ -7,30 +8,15 @@ const Header = () => {
         <Nav>
             <Logo src="/images/logo.svg" />
             <NavMenu>
-                <a href="#">
-                    <img src="/images/home-icon.svg" alt="Home Icon" />
-                    <span>HOME</span>
-                </a>
-                <a href="#">
-                    <img src="/images/search-icon.svg" alt="Search Icon" />
-                    <span>SEARCH</span>
-                </a>
-                <a href="#">
-                    <img src="/images/watchlist-icon.svg" alt="Watchlist Icon" />
-                    <span>WATCHLIST</span>
-                </a>
-                <a href="#">
-                    <img src="/images/original-icon.svg" alt="Original Icon" />
-                    <span>ORIGINAL</span>
-                </a>
-                <a href="#">
-                    <img src="/images/movie-icon.svg" alt="Movie Icon" />
-                    <span>MOVIES</span>
-                </a>
-                <a href="#">
-                    <img src="/images/series-icon.svg" alt="Series Icon" />
-                    <span>SERIES</span>
-                </a>
+
+                {
+                    Links.Links.map((link) =>(
+                        <a href="#" key={link.id}>
+                        <img src={link.icon} alt={link.alt} />
+                        <span>{link.title}</span>
+                        </a>
+                    ))
+                }
                 
             </NavMenu>
             <UserImage src="/images/Yoda.jpeg"/>
@@ -46,6 +32,7 @@ const Nav = styles.nav`
     display: flex;
     align-items: center;
     padding: 0 36px;
+    overflow-x: hidden;
 `
 
 // Added a logo const variable for the nav bar that is equal to styles.img

@@ -1,0 +1,40 @@
+{
+    "Links" : [
+        {
+            "id" : 1,
+            "icon" : "/images/home-icon.svg",
+            "alt" : "Home Icon",
+            "title" : "HOME"
+        },
+        {
+            "id" : 2,
+            "icon" : "/images/search-icon.svg",
+            "alt" : "Search Icon",
+            "title" : "SEARCH"
+        },
+        {
+            "id" : 3,
+            "icon" : "/images/watchlist-icon.svg",
+            "alt": "Watchlist Icon",
+            "title" : "WATCHLIST"
+        },
+        {
+            "id" : 4,
+            "icon" : "/images/original-icon.svg",
+            "alt" : "Original Icon",
+            "title" : "ORIGINAL"
+        }, 
+        {
+            "id" : 5, 
+            "icon" : "/images/movie-icon.svg",
+            "alt" : "Movie Icon",
+            "title" : "MOVIE"
+        },
+        {
+            "id" : 6,
+            "icon" : "/images/series-icon.svg",
+            "alt" : "Series Icon",
+            "title" : "SERIES"
+        }
+    ]
+}
