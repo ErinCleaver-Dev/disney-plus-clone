@@ -1,12 +1,14 @@
 import React from 'react';
 import styles from 'styled-components'
 import ImgSlider from './ImgSlider'
+import Viewers from './Viewers'
 
 const Home = () => {
     return (
         //Created a container const variable in order to style the header 
         <Container>
             <ImgSlider />
+            <Viewers/>
         </Container>
     )
 }

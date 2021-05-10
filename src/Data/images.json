@@ -20,23 +20,23 @@
     "Viewer_Images" : [
         {
             "id": 1,
-            "url": "/images/viewers-dinsey.png"
+            "url": "/images/viewers-disney.png"
         },
         {
             "id": 2,
-            "url": "/images/viewer-marvel.png"
+            "url": "/images/viewers-marvel.png"
         },
         {
             "id": 3,
-            "url": "/images/viewer-national.pnp"
+            "url": "/images/viewers-national.png"
         },
         {
             "id": 4,
-            "url": "/images/viewer-pixar.png"
+            "url": "/images/viewers-pixar.png"
         },
         {
             "id": 5,
-            "url": "/images/viewer-starwars.png"
+            "url": "/images/viewers-starwars.png"
         }
       
     ]

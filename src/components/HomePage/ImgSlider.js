@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import * as  Images from '../../Data/slider_images.json';
+import * as  Images from '../../Data/images.json';
 
 const ImgSlider = () => {
 
@@ -20,6 +20,7 @@ const ImgSlider = () => {
         // added a container to contain the information for the image silder
         <Carousel {...settings}>
             {
+                // added a map in order to display all of the slider images located in the json
                 Images.Slider_Images.map((image) =>(
                     <Wrap key={image.id}>
                         <img src={image.url}/>
